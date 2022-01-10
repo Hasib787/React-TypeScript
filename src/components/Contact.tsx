@@ -6,7 +6,7 @@ interface Iprops {
 }
 const Contact = (props: Iprops) => {
   return (
-    <div>
+    <div className="card">
       <p>
         <strong>Name:</strong>  {props.name}
       </p>

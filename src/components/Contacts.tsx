@@ -7,6 +7,7 @@ const Contacts = () => {
         <div>
             <h1>Contact List</h1>
             <Contact name="Hasib" email='mr.hasib45@gmail.com'/>
+            <Contact name="Swarna" email='swarna80@gmail.com'/>
         </div>
     );
 };
