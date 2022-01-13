@@ -4,7 +4,7 @@ interface Iprops {
   name: string;
   email?: string;
 }
-const Contact = ({name, email="N/A"}: Iprops) => {
+const Contact = ({name, email = "N/A"}: Iprops) => {
   return (
     <div className="card">
       <p>
