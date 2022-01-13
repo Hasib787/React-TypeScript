@@ -2,17 +2,17 @@ import React from "react";
 
 interface Iprops {
   name: string;
-  email: string;
+  email?: string;
 }
-const Contact = (props: Iprops) => {
+const Contact = ({name, email="N/A"}: Iprops) => {
   return (
     <div className="card">
       <p>
-        <strong>Name:</strong>  {props.name}
+        <strong>Name:</strong>  {name}
       </p>
      
       <p>
-        <strong>Email:</strong>  {props.email}
+        <strong>Email:</strong>  {email}
       </p>
      
     </div>
