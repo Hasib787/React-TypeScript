@@ -1,5 +1,5 @@
 body{
-  background-color: aquamarine;
+  background-color: rgb(147, 255, 219);
 }
 h1{
   margin: 2rem;
@@ -26,11 +26,11 @@ h1{
 }
 .form button {
   color: #ffffff;
-  background: #ff6f47;
+  background: #4787ff;
   cursor: pointer;
   transition: all 0.5s ease;
 }
 .form button:hover {
-  background: #e94416;
+  background: #2762e0;
   color: white;
 }
