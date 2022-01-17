@@ -18,9 +18,10 @@ const Contacts = () => {
           />
           <button>Add</button>
       </div>
-      <Contact name="Hasib" email="mr.hasib45@gmail.com" />
-      <Contact name="Swarna" email="swarna80@gmail.com" />
-      <Contact name="Zara" />
+      <Contact name="Hasib" phone="01837553116" email="mr.hasib45@gmail.com" />
+      <Contact name="Swarna" phone="01837553116" email="swarna80@gmail.com" />
+      <Contact name="Rana" phone="01837553116" email="rana@gmail.com" />
+      <Contact name="Zara" phone="01837553116" />
     </div>
   );
 };
