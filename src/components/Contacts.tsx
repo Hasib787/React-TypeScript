@@ -3,13 +3,13 @@ import Contact from "./Contact";
 
 const Contacts = () => {
   const [contact, setContact] = useState("");
-  const [contactList, setContactList] = useState([]);
+  const [contactList, setContactList] = useState<string[]>([]);
 
-  const handleAddContact = (e) => {
-    e.preventDefault();
+  const handleAddContact = () => {
     setContactList([...contactList, contact]);
     setContact("");
   }
+  console.log(contactList);
   return (
     <div>
       <h1>🦸Contact List</h1>
